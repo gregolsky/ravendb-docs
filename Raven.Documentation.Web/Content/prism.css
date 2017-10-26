@@ -1,4 +1,4 @@
-/* http://prismjs.com/download.html?themes=prism&languages=markup+css+clike+javascript+csharp+http+java+python&plugins=line-numbers */
+/* http://prismjs.com/download.html?themes=prism&languages=markup+css+clike+javascript+bash+csharp+ruby+go+http+java+powershell+python+sql&plugins=line-numbers */
 /**
  * prism.js default theme for JavaScript, CSS and HTML
  * Based on dabblet (http://dabblet.com)
@@ -145,6 +145,7 @@ pre.line-numbers {
 
 pre.line-numbers > code {
 	position: relative;
+    white-space: inherit;
 }
 
 .line-numbers .line-numbers-rows {

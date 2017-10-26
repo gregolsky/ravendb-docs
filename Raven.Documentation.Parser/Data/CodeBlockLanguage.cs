@@ -8,6 +8,11 @@
 		Json,
 		Plain,
 		Xml,
-        Python
+        Python,
+        NodeJs,
+        Bash,
+        Powershell,
+        Ruby,
+        Go,
 	}
 }

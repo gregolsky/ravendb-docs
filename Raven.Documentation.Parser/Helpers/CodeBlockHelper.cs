@@ -290,6 +290,16 @@ namespace Raven.Documentation.Parser.Helpers
 					return "language-none";
                 case CodeBlockLanguage.Python:
 			        return "language-python";
+                case CodeBlockLanguage.Bash:
+                    return "language-bash";
+                case CodeBlockLanguage.Powershell:
+                    return "language-powershell";
+                case CodeBlockLanguage.Go:
+                    return "language-go";
+                case CodeBlockLanguage.Ruby:
+                    return "language-ruby";
+                case CodeBlockLanguage.NodeJs:
+                    return "language-javascript";
 				default:
 					throw new NotSupportedException(language.ToString());
 			}
